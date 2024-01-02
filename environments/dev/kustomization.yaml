@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:41a56e3077fe03831130a5915e68ecd23eeb0f61f99396769b7f5a50c32e9e6b
+- digest: sha256:d7764a026ad930b01810e44c0b66e89bc926f73b6d7c0f34e9eea080ded6bcbb
   name: quay.io/bluesman/vote-ui:latest
   newName: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/pipelines-vote-ui
